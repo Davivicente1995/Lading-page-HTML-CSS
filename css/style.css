@@ -1,0 +1,94 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+/* Cabeçalho */
+body {
+    background:#E6E0F8;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif; 
+}
+/* Imagem de apresentação do aparelho */
+img {
+    width: 500px;
+}
+/* Barra de menu */
+#menu {
+    border: 10px solid black;
+    background: black;
+    margin-left: -10px;
+    
+}
+/* Menu + link de click*/
+#menu a {
+    color: rgba(232, 232, 232, 0.8);
+    margin: 40px;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+/* Margin de compra */
+#compra {
+    margin: 0px -60px -20px 100px;
+}
+/* coloando a imagem do lado do texto */
+#compra, img {
+    display: inline-block;
+    
+}
+/* Borda dos modelos do aparelho */
+.border {
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    margin: 10px 60px 0px 60px;
+    border-radius: 10px;
+    color: rgb(48, 48, 48);
+}
+/* texto de inicio */
+.frete-gratis {
+    background: #f0eeeed9;
+    border: 20px solid #f0eeeed9;
+    margin-top: -8px; 
+}
+/* Seleção de cores dos aparelhos escolhidos */
+.select-cor1 {
+    cursor: pointer;
+    appearance: none;
+    background: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    border: 2px solid white;
+    outline: none;
+    position: relative;
+}
+.select-cor2 {
+    cursor: pointer;
+    appearance: none;
+    background: rgb(28,54,66);
+    background: radial-gradient(circle, rgba(28,54,66,1) 0%, rgba(80,104,116,1) 0%, rgba(80,104,116,1) 95%);
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    outline: none;
+    position: relative;
+}
+.select-cor3 {
+    cursor: pointer;
+    appearance: none;
+    background: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    outline: none;
+    position: relative;
+}
+.select-cor4 {
+    cursor: pointer;
+    appearance: none;
+    background: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    outline: none;
+    position: relative;
+}
